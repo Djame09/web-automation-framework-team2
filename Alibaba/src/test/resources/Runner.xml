@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Alibaba Automation" parallel="false">
+    <parameter name="os" value="windows"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+    <parameter name="url" value="https://www.alibaba.com/"></parameter>
+
+    <test name="Alibaba test">
+        <classes>
+            <class name="us.piit.AppTest">
+
+            </class>
+        </classes>
+    </test>
+</suite>
